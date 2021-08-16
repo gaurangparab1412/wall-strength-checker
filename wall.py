@@ -64,7 +64,6 @@ class CheckWallStrength:
 
 
 cw = CheckWallStrength()
-# Below code will always run with a time complexity of O(n)
 result = cw.perform_strength_check()
 if result:
     print("This wall is safe")
